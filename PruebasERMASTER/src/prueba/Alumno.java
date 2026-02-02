@@ -12,6 +12,8 @@ import java.util.Set;
  */
 public class Alumno implements Serializable {
 
+
+	
 	/** serialVersionUID. */
 	private static final long serialVersionUID = 1L;
 
@@ -34,9 +36,9 @@ public class Alumno implements Serializable {
 	 * Constructor.
 	 */
 	public Alumno() {
+		System.out.println("Bienvenido");
 		this.notasSet = new HashSet<Notas>();
 	}
-
 	/**
 	 * Set the Codalumno.
 	 * 
